@@ -5,7 +5,7 @@ import ItemListConteiner from "./Components/ItemListConteiner"
 
 const App = () => {
 
-  const mensaje = "Segunda entrega"
+  const mensaje = "Tercer y segunda entrega"
 
   return (
     <>
