@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../assets/logo.jpg'
 import { Nav } from './Nav/Nav';
+import CartWidget from '../CartWidget/CartWidget';
 
 
 const Navbar = ({ nombre, apellido, id, children }) => {
@@ -16,6 +17,7 @@ const Navbar = ({ nombre, apellido, id, children }) => {
         <header style={styles.container}>
             <img style={styles.imagen} src={logo} alt="logo" />
             <Nav categorias={categorias}/>
+            <CartWidget/>
         </header>
     )
 }
