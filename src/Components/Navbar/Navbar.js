@@ -27,6 +27,7 @@ const styles = {
     container: {
         display: 'flex',
         justifyContent: 'space-between',
+        backgroundColor: '#ff6800',
         alignItems: 'center'
     },
     imagen: {
