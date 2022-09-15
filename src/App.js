@@ -1,21 +1,21 @@
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar"
-import ItemListConteiner from "./Components/ItemListConteiner"
+import ItemListContainer from "./Components/listProducts/ItemListConteiner";
 //import  ChakraProvider  from '@chakra-ui/react';
 
 
 
 const App = () => {
 
-  const mensaje = "Cuarta Entrega"
+  const mensaje = "Adulto"
 
   return (
     
     <>
       <Navbar />
       
-      <ItemListConteiner
-      greeting={mensaje}/>
+      <ItemListContainer
+      categoria={mensaje}/>
       
    
     </>
